@@ -1,0 +1,6 @@
+{
+    "configuration": "cpu=16MHzatmega32U4",
+    "output": "build",
+    "board": "SparkFun:avr:promicro",
+    "sketch": "Flatbox\\Flatbox.ino"
+}

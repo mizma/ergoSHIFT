@@ -1,0 +1,32 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\Programs\\Tools\\Arduino\\arduino-1.8.19\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\funah\\AppData\\Local\\Arduino15\\packages\\SparkFun\\hardware\\avr\\1.1.13\\variants\\promicro"
+  },
+  {
+    "Sourcefile": "d:\\work\\flatbox\\firmwares_atmega32u4\\DINPUT\\build\\sketch\\Flatbox.ino.cpp",
+    "Include": "HID.h",
+    "Includepath": "D:\\Programs\\Tools\\Arduino\\arduino-1.8.19\\hardware\\arduino\\avr\\libraries\\HID\\src"
+  },
+  {
+    "Sourcefile": "d:\\work\\flatbox\\firmwares_atmega32u4\\DINPUT\\build\\sketch\\Flatbox.ino.cpp",
+    "Include": "EEPROM.h",
+    "Includepath": "D:\\Programs\\Tools\\Arduino\\arduino-1.8.19\\hardware\\arduino\\avr\\libraries\\EEPROM\\src"
+  },
+  {
+    "Sourcefile": "d:\\work\\flatbox\\firmwares_atmega32u4\\DINPUT\\build\\sketch\\Flatbox.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Programs\\Tools\\Arduino\\arduino-1.8.19\\hardware\\arduino\\avr\\libraries\\HID\\src\\HID.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

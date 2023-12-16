@@ -1,0 +1,5 @@
+{
+    "sketch": "LUFAHybridFightstick\\LUFAHybridFightstick.ino",
+    "board": "Arduino-LUFA:avr:leonardo",
+    "output": "build"
+}

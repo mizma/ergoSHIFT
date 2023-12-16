@@ -23,6 +23,16 @@ This controller is designed with the following concept:
     * One on the left of the Jump button.  (intended for defensive buttons)
     * One on the top-left.
     * One above the index-middle finger position.
+* make the design reversible for lefty use.
+    * To assemble for left hand use, implement all buttons on the other side.
+    * Pro-Micro needs to be implemented the same way
+    * to compensate for the Pro-micro being in reverse, adjust the acryl layer
+      thickness to the following
+        * Layer 1: 3mm (same as normal layout)
+        * Layer 2: 3mm (same as normal layout)
+        * Layer 3: 3mm (change needed to avoid pro-micro to hit the acryl)
+        * Layer 4: 2mm (change to keep the total width the same)
+        * Layer 5: 2mm (same as normal layout)
 
 Resulting button mappings will look like this:
 

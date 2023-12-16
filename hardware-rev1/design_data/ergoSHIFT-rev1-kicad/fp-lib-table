@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/keyswitches.pretty)(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name ergoSHIFT-rev1-kicad)(type KiCad)(uri ${KIPRJMOD}/ergoSHIFT-rev1-kicad.pretty)(options "")(descr ""))
+)

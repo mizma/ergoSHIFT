@@ -36,18 +36,21 @@ This controller is designed with the following concept:
 
 Resulting button mappings will look like this:
 
-![button-map](hardware-rev1/images/ergoSHIFT-stencil.svg)
+![button-map](hardware-rev1/images/ergoSHIFT-stencil.png)
 
 There is currently one revision of the ergoSHIFT.  It uses Kailh low profile (choc v1)
 mechanical keyboard switches.  The table below lists their main features.
 See the README for each version for details on how to make them.
 
-version | [rev1](./hardware-rev1/) |
-------- | ------------------------- |
-case dimensions | 233.17x147.67x13.6mm |
-compatibility (using provided firmware) | PC, PS3, Xinput, Switch |
-add-on board | Sparkfun Qwiic Pro Micro |
-onboard chip | - |
-port | USB-C |
-SMT assembly required | no |
-firmware | [ATmega32U4](firmwares_atmega32u4) |
+version                                 | [rev1](./hardware-rev1/)            | rev2 (planning)                       |
+--------------------------------------- | ----------------------------------- | ------------------------------------- |
+case dimensions                         | 233.17x147.67x13.6mm                | 233.17x147.67x13.6mm                  |
+compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   |
+add-on board                            | Sparkfun Qwiic Pro Micro            | SH1106 128x64 oled screen             |
+onboard chip                            | -                                   | RP2040                                |
+port                                    | USB-C                               | USB-C                                 |
+SMT assembly required                   | no                                  | yes                                   |
+OLED Support                            | no                                  | yes                                   |
+firmware                                | [ATmega32U4](firmwares_atmega32u4)  | [GP2040-CE](https://gp2040-ce.info/)  |
+
+*) for details, see the documentation in the [GP2040-CE PS4/PS5 Compatibility FAQ](https://gp2040-ce.info/faq/faq-ps4-ps5-compatibility)

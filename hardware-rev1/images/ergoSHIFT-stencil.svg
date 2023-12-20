@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.2069903"
-     inkscape:cx="509.74397"
-     inkscape:cy="412.09968"
+     inkscape:zoom="1.5605778"
+     inkscape:cx="533.13587"
+     inkscape:cy="391.84205"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="-11"
@@ -295,25 +295,27 @@
   <text
      xml:space="preserve"
      style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:0.3"
-     x="153.50661"
-     y="129.79877"
+     x="157.20183"
+     y="129.54445"
      id="text26-3-3-6"><tspan
        sodipodi:role="line"
-       style="stroke:none;stroke-width:0.264583;fill:#000000;fill-opacity:1"
-       x="153.50661"
-       y="129.79877"
-       id="tspan28-7">A/CROSS</tspan></text>
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="157.20183"
+       y="129.54445"
+       id="tspan28-7">A/✕</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:0.3"
-     x="180.13162"
-     y="118.46116"
+     x="184.0666"
+     y="117.93861"
      id="text26-3-3-6-4"><tspan
        sodipodi:role="line"
-       style="stroke:none;stroke-width:0.264583;fill:#000000;fill-opacity:1"
-       x="180.13162"
-       y="118.46116"
-       id="tspan28-7-1">B/CIRCLE</tspan></text>
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="184.0666"
+       y="117.93861"
+       id="tspan28-7-1">B/<tspan
+   style="font-size:2.82222px"
+   id="tspan3">◯</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:0.3"
@@ -339,14 +341,16 @@
   <text
      xml:space="preserve"
      style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:0.3"
-     x="153.79755"
-     y="99.51387"
+     x="158.47304"
+     y="99.274101"
      id="text26-3-3-6-4-8"><tspan
        sodipodi:role="line"
-       style="stroke:none;stroke-width:0.264583;fill:#000000;fill-opacity:1"
-       x="153.79755"
-       y="99.51387"
-       id="tspan28-7-1-9">X/SQUARE</tspan></text>
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="158.47304"
+       y="99.274101"
+       id="tspan28-7-1-9">X/<tspan
+   style="font-size:4.93889px"
+   id="tspan1">□</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:0.3"
@@ -365,10 +369,10 @@
      y="68.78862"
      id="text26-3-3-6-4-8-9"><tspan
        sodipodi:role="line"
-       style="stroke:none;stroke-width:0.264583;fill:#000000;fill-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="156.616"
        y="68.78862"
-       id="tspan28-7-1-9-9">≡/SELECT</tspan></text>
+       id="tspan28-7-1-9-9">❏/SELECT</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:1.87771px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.156476;stroke-opacity:0.3"
@@ -376,10 +380,10 @@
      y="38.896961"
      id="text26-3-3-6-4-8-9-8"><tspan
        sodipodi:role="line"
-       style="stroke:none;stroke-width:0.156476;fill:#000000;fill-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.156476"
        x="68.366318"
        y="38.896961"
-       id="tspan28-7-1-9-9-8">❏/START</tspan></text>
+       id="tspan28-7-1-9-9-8">≡/START</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:1.87771px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.156476;stroke-opacity:0.3"
@@ -394,14 +398,16 @@
   <text
      xml:space="preserve"
      style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:0.3"
-     x="179.14407"
-     y="88.324104"
+     x="185.11044"
+     y="87.759796"
      id="text26-3-3-6-4-6"><tspan
        sodipodi:role="line"
-       style="stroke:none;stroke-width:0.264583;fill:#000000;fill-opacity:1"
-       x="179.14407"
-       y="88.324104"
-       id="tspan28-7-1-2">Y/TRIANGLE</tspan></text>
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="185.11044"
+       y="87.759796"
+       id="tspan28-7-1-2">Y/<tspan
+   style="font-size:4.23333px"
+   id="tspan4">△</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:0.3"

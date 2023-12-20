@@ -10,23 +10,23 @@
 
 #ifdef REV1
 
-#define PIN_UP        9
-#define PIN_DOWN      7
-#define PIN_LEFT      6
-#define PIN_RIGHT     8
+#define PIN_UP        7
+#define PIN_DOWN      4
+#define PIN_LEFT      3
+#define PIN_RIGHT     5
 #define PIN_CROSS     10
 #define PIN_CIRCLE    14
 #define PIN_TRIANGLE  15
 #define PIN_SQUARE    16
 #define PIN_L1        21
-#define PIN_L2        20
-#define PIN_R1        19
-#define PIN_R2        18
-#define PIN_SELECT    2
-#define PIN_START     1
-#define PIN_L3        5
-#define PIN_R3        3
-#define PIN_PS        0
+#define PIN_L2        8
+#define PIN_R1        20
+#define PIN_R2        19
+#define PIN_SELECT    18
+#define PIN_START     2
+#define PIN_L3        6
+#define PIN_R3        9
+#define PIN_PS        1
 
 #endif
 

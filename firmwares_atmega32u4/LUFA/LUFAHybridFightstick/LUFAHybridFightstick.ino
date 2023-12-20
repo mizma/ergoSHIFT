@@ -13,23 +13,23 @@
 #define SOCD_CONFIG
 
 /* PINOUT (follows Nintendo naming (X=up, B=down)) */
-#define PIN_UP    9
-#define PIN_DOWN  7
-#define PIN_LEFT  6
-#define PIN_RIGHT 8
+#define PIN_UP    7
+#define PIN_DOWN  4
+#define PIN_LEFT  3
+#define PIN_RIGHT 5
 #define PIN_A     MISO         //XBOX B
 #define PIN_B     10           //XBOX A  
 #define PIN_X     15           //XBOX Y
 #define PIN_Y     MOSI         //XBOX X     
 #define PIN_L     21           //XBOX LB
-#define PIN_R     19           //XBOX RB
-#define PIN_ZL    20           //XBOX LT
-#define PIN_ZR    18           //XBOX RT
-#define PIN_LS    5            //XBOX LS (left analog click)
-#define PIN_RS    3            //XBOX RS (right analog click)
-#define PIN_PLUS  1            //XBOX START
-#define PIN_MINUS 2            //XBOX BACK
-#define PIN_HOME  0
+#define PIN_R     20           //XBOX RB
+#define PIN_ZL    8            //XBOX LT
+#define PIN_ZR    19           //XBOX RT
+#define PIN_LS    6            //XBOX LS (left analog click)
+#define PIN_RS    9            //XBOX RS (right analog click)
+#define PIN_PLUS  2            //XBOX START
+#define PIN_MINUS 18           //XBOX BACK
+#define PIN_HOME  1
 
 /* Buttons declarations */
 #define MILLIDEBOUNCE 1 //Debounce time in milliseconds

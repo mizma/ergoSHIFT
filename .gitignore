@@ -1,3 +1,4 @@
 *.FCBak
 hardware-rev1/design_data/ergoSHIFT-rev1-kicad/ergoSHIFT-rev1-kicad-backups/
 **/build
+**/c_cpp_properties.json

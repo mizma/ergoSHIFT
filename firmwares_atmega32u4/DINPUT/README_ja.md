@@ -19,10 +19,10 @@ Flatbox-ACR [rev1.1](../hardware-rev1.1) に利用できます。
 1. [Arduino IDE](https://www.arduino.cc/en/software)をダウンロードしてインストールしてください。
 2. Arduino IDE内のライブラリ管理メニューからBounce2ライブラリをインストールしてください。
 3. ファイル→環境設定から追加のボードマネージャURLに
-   `https://github.com/CrazyRedMachine/Arduino-Lufa/raw/master/package_arduino-lufa_index.json` を追加。
-4. ツール→ボード→ボードマネージャからLUFA AVR Boardをインストール
-5. ツール→ボード以下で Arduino Leonardo (LUFA) を選択
-    * Pro-MicroはArduino Leonardoの互換ボードなのでこちらで動作します
+   `https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json` を追加。
+4. ツール→ボード→ボードマネージャから SparkFun AVR Boards をインストール
+5. ツール→ボード以下で SparkFun Pro Micro (SparkFun AVR Boards) を選択
+    * Processor として ATmega32U4 (5V, 16MHz) を選択
 6. マイコンボードに書き込みで書き込み出来ます。
     * 初回の書き込みは特に何もしなくても上記設定をして付属の.inoを書き込めば書き込めますが2度め以降は
       書き込み出来ません。これはHIDモードで動作するファームはArduino IDEからのリセット要求に対応できない

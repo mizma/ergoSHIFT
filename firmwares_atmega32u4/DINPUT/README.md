@@ -19,10 +19,9 @@ It works with Flatbox-ACR [rev1.1](../hardware-rev1.1)
 ## Building Instructions
 
 - Download Arduino IDE, 
-- Download the Bounce2 Library inside the Arduino IDE
-- Add `https://github.com/CrazyRedMachine/Arduino-Lufa/raw/master/package_arduino-lufa_index.json` as an Additional Board Manager URL (in `File -> Preferences` menu)
-- Install LUFA AVR Boards from the Board Manager
-- Select Arduino Leonardo (LUFA) as your board type (Pro-Micro is a compatible board to Leonardo)
+- Add `https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json` as an Additional Board Manager URL (in `File -> Preferences` menu)
+- Install SparkFun AVR Boards from the Board Manager
+- Select SparkFun Pro Micro (SparkFun AVR Boards) as your board type and select ATmega32U4 (5V, 16MHz) as your processor.
 - Upload the code and Have Fun
 
 ### How to upload

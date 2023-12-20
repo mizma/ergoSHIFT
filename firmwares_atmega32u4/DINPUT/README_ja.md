@@ -1,6 +1,7 @@
 こちらのファームはArduino Pro Micro 等のATMega32u4ベースの制御基盤で利用するためのファームになります。
+こちらのファームウェアは[jfedor2/flatbox](https://github.com/jfedor2/flatbox/) のATMega32u4用ファームウェアをベースに作成されています。
 
-Flatbox-ACR [rev1.1](../hardware-rev1.1) に利用できます。
+ergoSHIFT [rev1](../hardware-rev1) に利用できます。
 
 ## [オリジナル](https://github.com/jfedor2/flatbox/blob/master/firmware-atmega32u4)からの変化点
 
@@ -37,7 +38,7 @@ Flatbox-ACR [rev1.1](../hardware-rev1.1) に利用できます。
 ### ファームの書き込み方法
 
 USB HID対応のファームをAVRボードに書き込みすると、Arduino IDEから書き込み時の自動リセットを受け付けなくなります。
-一度ファームを書き込んだ後は書き込み処理時に手動でリセット（Flatbox ACRではSW_RST1）を押す必要があります。
+一度ファームを書き込んだ後は書き込み処理時に手動でリセット（ergoSHIFTではSW_RST1）を押す必要があります。
 Sparkfun Qwiic Pro Micro 5Vを使った場合はリセットをダブルクリックすることで書き込みモードに入れることが出来ます。
 
 Arduino IDEでは自分で書き込みのタイミングを制御出来ないため、2回目以降はVSCodeのArduinoプラグインを使って

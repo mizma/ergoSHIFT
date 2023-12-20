@@ -1,8 +1,9 @@
 [日本語はこちら](README_ja.md)
 
 This is Arduino code for a USB arcade controller, meant to be used with ATmega32U4-based boards like the Arduino Pro Micro.
+This firmware is based off of [jfedor2/flatbox](https://github.com/jfedor2/flatbox/) ATmega32u4 firmware.
 
-It works with Flatbox-ACR [rev1.1](../hardware-rev1.1)
+It works with ergoSHIFT [rev1](../hardware-rev1)
 
 ## Change Points from [original](https://github.com/jfedor2/flatbox/blob/master/firmware-atmega32u4)
 
@@ -27,7 +28,7 @@ It works with Flatbox-ACR [rev1.1](../hardware-rev1.1)
 ### How to upload
 
 When you reflash AVR boards with USB HID device software, Arduino IDE cannot automatically reset and flash the software.
-You will need to press reset button on the AVR board (SW_RST1 on Flatbox ACR) to put it into Bootloader mode to reflash.
+You will need to press reset button on the AVR board (SW_RST1 on ergoSHIFT) to put it into Bootloader mode to reflash.
 When you use Sparkfun Qwiik ProMicro 5V, you will need to double-click the reset button to put it into Bootloader.
 
 I recommend setting up VSCode Arduino plugin.  If you open this directory with VSCode, it is already set up so all you need to do is

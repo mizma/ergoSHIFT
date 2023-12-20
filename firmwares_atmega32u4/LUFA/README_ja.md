@@ -1,7 +1,7 @@
 ## LUFA Switch/XInput ハイブリッドアケコンファームウェア
 
 このファームウェアは[CrazyRedMachine](https://github.com/CrazyRedMachine)様による
-[LUFAHybridFightstick](https://github.com/CrazyRedMachine/LUFAHybridFightstick)のFlatbox ACR向け改造版になります。
+[LUFAHybridFightstick](https://github.com/CrazyRedMachine/LUFAHybridFightstick)のergoSHIFT向け改造版になります。
 
 ## 謝辞 
 
@@ -10,11 +10,11 @@
 [fluffymadness' ATMega32U4-Switch-Fightstick](https://github.com/fluffymadness/ATMega32U4-Switch-Fightstick)
 と [bootsector's XInputPadMicro](https://github.com/bootsector/XInputPadMicro)をベースに作成されています。
 
-このフォークではFlatbox ACRに対応するため、以下の修正を入れています。
+このフォークではergoSHIFTに対応するため、以下の修正を入れています。
 
-* Flatbox ACR の配線に合わせたキーマップの修正
+* ergoSHIFT の配線に合わせたキーマップの修正
 * アナログスティック対応コードの削除
-* 設定関連（SOCDクリーナー設定等）のボタンを他のFlatbox ACRと合わせるためマッピング変更
+* 設定関連（SOCDクリーナー設定等）のボタンを他のergoSHIFTと合わせるためマッピング変更
     * SOCDクリーナー設定は起動時のみに変更し、プリセットの選択のみとしました
       （全ニュートラル、Hitbox風、ガフロコン風）
     * 追加で上下キーの反転機能を追加。格ゲー以外のゲームでの利用向け。
@@ -46,11 +46,11 @@ XInputコントローラーとして動作します。
 
 ### アナログ入力サポート機能
 
-Flatbox ACRにはアナログ入力がないため機能削除しました。
+ergoSHIFTにはアナログ入力がないため機能削除しました。
 
 ### ホームボタンシミュレート機能
 
-Flatbox ACRにはHomeボタンがあるため機能削除しました。
+ergoSHIFTにはHomeボタンがあるため機能削除しました。
 
 ### SOCD クリーナー設定
 
@@ -64,7 +64,7 @@ Flatbox ACRにはHomeボタンがあるため機能削除しました。
 
 ### 上下入力反転設定
 
-Flatbox ACRはHitbox風コントローラーのため、上下キーのレイアウトが少々変わっているため、格ゲー以外では
+ergoSHIFTはHitbox風コントローラーのため、上下キーのレイアウトが少々変わっているため、格ゲー以外では
 利用しづらい為、格ゲー以外で利用するときのために上下反転する機能を追加しました。
 
 * 起動時に上ボタン（十字キーの親指のボタン）を押下＝上下反転
@@ -93,7 +93,7 @@ Flatbox ACRはHitbox風コントローラーのため、上下キーのレイア
 ### ファームの書き込み方法
 
 USB HID対応のファームをAVRボードに書き込みすると、Arduino IDEから書き込み時の自動リセットを受け付けなくなります。
-一度ファームを書き込んだ後は書き込み処理時に手動でリセット（Flatbox ACRではSW_RST1）を押す必要があります。
+一度ファームを書き込んだ後は書き込み処理時に手動でリセット（ergoSHIFTではSW_RST1）を押す必要があります。
 Sparkfun Qwiic Pro Micro 5Vを使った場合はリセットをダブルクリックすることで書き込みモードに入れることが出来ます。
 
 Arduino IDEでは自分で書き込みのタイミングを制御出来ないため、2回目以降はVSCodeのArduinoプラグインを使って
@@ -121,27 +121,27 @@ Arduino IDEで上記の設定が一通り終わった後にこのフォルダを
 
 .ino ファイルで設定可能です。
 
-こちらのリポジトリ内のファイルではすでに Flatbox ACR 向けに設定済みです。
+こちらのリポジトリ内のファイルではすでに ergoSHIFT 向けに設定済みです。
 
 ```C
 /* PINOUT (follows Nintendo naming (X=up, B=down)) */
-#define PIN_UP    9
-#define PIN_DOWN  7
-#define PIN_LEFT  6
-#define PIN_RIGHT 8
+#define PIN_UP    7
+#define PIN_DOWN  4
+#define PIN_LEFT  3
+#define PIN_RIGHT 5
 #define PIN_A     MISO         //XBOX B
 #define PIN_B     10           //XBOX A  
 #define PIN_X     15           //XBOX Y
 #define PIN_Y     MOSI         //XBOX X     
 #define PIN_L     21           //XBOX LB
-#define PIN_R     19           //XBOX RB
-#define PIN_ZL    20           //XBOX LT
-#define PIN_ZR    18           //XBOX RT
-#define PIN_LS    5            //XBOX LS (left analog click)
-#define PIN_RS    3            //XBOX RS (right analog click)
-#define PIN_PLUS  1            //XBOX START
-#define PIN_MINUS 2            //XBOX BACK
-#define PIN_HOME  0
+#define PIN_R     20           //XBOX RB
+#define PIN_ZL    8            //XBOX LT
+#define PIN_ZR    19           //XBOX RT
+#define PIN_LS    6            //XBOX LS (left analog click)
+#define PIN_RS    9            //XBOX RS (right analog click)
+#define PIN_PLUS  2            //XBOX START
+#define PIN_MINUS 18           //XBOX BACK
+#define PIN_HOME  1
 ```
 
 ## 寄付

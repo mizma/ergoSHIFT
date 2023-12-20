@@ -39,8 +39,8 @@ All following settings are persistent and will be kept over power cycles or rese
 For Key Combos using Reset, Reset should be clicked once while holding the other input.
 Wait for the controller to reset and connect to the PC/Console before releasing the input.
 
-You can print [this cheat sheet](Flatbox-ACR_Hotkey_Cheatsheet.pdf) to insert in the back
-of your Flatbox-ACR (PageSize: B5)
+You can print [this cheat sheet](ergoSHIFT_Hotkey_Cheatsheet.pdf) to insert in the back
+of your ergoSHIFT (PageSize: B5)
 
 ## [DINPUT](./DINPUT/)
 

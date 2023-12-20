@@ -40,7 +40,7 @@ Fake Right Stick    | NO                    | **YES**               |
 再接続するまで待ってください。接続完了時に押されていたキーを判定して設定変更が行われるので、対応キーを
 離すのが早すぎると設定されない場合があります。
 
-キーコンボの[カンニングペーパー](Flatbox-ACR_Hotkey_Cheatsheet.pdf)を作ったので覚えるのが面倒な場合は
+キーコンボの[カンニングペーパー](ergoSHIFT_Hotkey_Cheatsheet.pdf)を作ったので覚えるのが面倒な場合は
 こちらを印刷して裏側等に挟み込んでご利用ください（印刷サイズ：B5）
 
 ## [DINPUT](./DINPUT/)
@@ -51,7 +51,7 @@ Fake Right Stick    | NO                    | **YES**               |
 ## [LUFA](./LUFA/)
 
 こちらは[CrazyRedMachine](https://github.com/CrazyRedMachine)様作成の
-[LUFAHybridFightstick](https://github.com/CrazyRedMachine/LUFAHybridFightstick)をベースにFlatbox ACR用にカスタマイズ
+[LUFAHybridFightstick](https://github.com/CrazyRedMachine/LUFAHybridFightstick)をベースにergoSHIFT用にカスタマイズ
 したファームになります。Xinputとニンテンドースイッチに対応しています（XinputはPCのみ対応。XBoxには認証チップ
 が必要なため非対応になります）。
 

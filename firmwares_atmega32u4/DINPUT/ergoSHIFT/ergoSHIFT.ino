@@ -1,14 +1,8 @@
 // Jacek Fedorynski <jfedor@jfedor.org>
 // http://www.jfedor.org/
 
-// Uncomment the appropriate line to match your stick version
-#define REV1
-//#define REV2
-
 #include "HID.h"
 #include <EEPROM.h>
-
-#ifdef REV1
 
 #define PIN_UP        7
 #define PIN_DOWN      4
@@ -27,30 +21,6 @@
 #define PIN_L3        6
 #define PIN_R3        9
 #define PIN_PS        1
-
-#endif
-
-#ifdef REV2
-
-#define PIN_UP        5
-#define PIN_DOWN      9
-#define PIN_LEFT      8
-#define PIN_RIGHT     10
-#define PIN_CROSS     18
-#define PIN_CIRCLE    21
-#define PIN_TRIANGLE  14
-#define PIN_SQUARE    7
-#define PIN_L1        15
-#define PIN_L2        19
-#define PIN_R1        16
-#define PIN_R2        20
-#define PIN_SELECT    1
-#define PIN_START     4
-#define PIN_L3        3
-#define PIN_R3        0
-#define PIN_PS        6
-
-#endif
 
 int stickMode = 0; // 0 = dpad, 1 = left stick
 

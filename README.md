@@ -3,6 +3,8 @@ ergoSHIFT arcade controller
 
 ![logo](./images/ErgoSHIFT-logo-small.svg)
 
+**CAUTION! DESIGN NOT YET VERIFIED!**
+
 _**Low profile 11 button leverless arcade controller with Acrylic shell**_
 
 This repository contains Acrylic cut design files, PCB design files and code needed to make

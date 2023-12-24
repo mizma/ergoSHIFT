@@ -180,7 +180,12 @@ You can also insert some artwork below the top acrylic layer as below:
 
 (*) Above sample Artwork based on a trace of In-Game Screenshot + Official Fan-kit (©ARK SYSTEM WORKS)
 
-Stencil for the artwork can be found [HERE](./images/ergoSHIFT-stencil-with-OLED.png).
+Stencil for the artwork can be found below (Page Size set to A4):
+
+* [Stencil SVG](./images/ergoSHIFT-stencil-with-OLED.png)
+* [Stencil PNG 300dpi](./images/ergoSHIFT-stencil-with-OLED.png)
+* [Southpaw Stencil SVG](./images/ergoSHIFT-stencil-with-OLED-reversed.svg)
+* [Southpaw Stencil PNG 300dpi](./images/ergoSHIFT-stencil-with-OLED-reversed.png)
 
 To cut the stencil, use one of the top acrylic plates as cutting guides (don't trust the acuracy
 of the printed stencil mark, they are good enough to use as design guide, but not acurate enough for 

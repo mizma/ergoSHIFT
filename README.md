@@ -24,18 +24,14 @@ This controller is designed with the following concept:
 * Make the button size compatible with Snackbox MICRO from [Junkfood Arcades](https://junkfoodarcades.com/)
 * make the design reversible for lefty use.
     * To assemble for left hand use, implement all buttons on the other side.
-    * Pro-Micro needs to be implemented the same way
-    * to compensate for the Pro-micro being in reverse, adjust the acryl layer
-      thickness to the following
-        * Layer 1: 3mm (same as normal layout)
-        * Layer 2: 3mm (same as normal layout)
-        * Layer 3: 3mm (change needed to avoid pro-micro to hit the acryl)
-        * Layer 4: 2mm (change to keep the total width the same)
-        * Layer 5: 2mm (same as normal layout)
+    * Controller Circuit (Pro Micro or RP2040) must be implemented on the same side
+    * to compensate for the Controller Cicuitry being implemented in reverse, Acrylic layers will need to be 
+      stacked in a different order and thickness.  Refer to each revision README for details
 
 Resulting button mappings will look like this:
 
 ![button-map](hardware-rev1/images/ergoSHIFT-stencil.png)
+![burron-map-reversed](hardware-rev1/images/ergoSHIFT-stencil-reverse.png)
 
 There is currently one revision of the ergoSHIFT.  It uses Kailh low profile (choc v1)
 mechanical keyboard switches.  The table below lists their main features.

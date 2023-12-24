@@ -3,16 +3,12 @@ ergoSHIFT arcade controller
 
 ![logo](./images/ErgoSHIFT-logo-small.svg)
 
-**CAUTION! DESIGN NOT YET VERIFIED!**
-
 _**Low profile 11 button leverless arcade controller with Acrylic shell**_
 
 This repository contains Acrylic cut design files, PCB design files and code needed to make
 an arcade controller that look like this:
 
-TODO: replace with actual procuct image
-
-![image](./hardware-rev1/images/acryl-shell-stackup.png)
+![image](./hardware-rev1/images/ergoSHIFT-rev1-bare1.jpg)
 
 This controller is designed with the following concept:
 
@@ -44,8 +40,9 @@ There is currently one revision of the ergoSHIFT.  It uses Kailh low profile (ch
 mechanical keyboard switches.  The table below lists their main features.
 See the README for each version for details on how to make them.
 
-version                                 | [rev1](./hardware-rev1/)            | rev2 (planning)                       |
+version                                 | [rev1](./hardware-rev1/)            | [rev2](./hardware-rev2/)              |
 --------------------------------------- | ----------------------------------- | ------------------------------------- |
+Status                                  | Verified                            | Initial build on-goind                |
 case dimensions                         | 233.17x147.67x13.6mm                | 233.17x147.67x13.6mm                  |
 compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   |
 add-on board                            | Sparkfun Qwiic Pro Micro            | SH1106 128x64 oled screen             |
@@ -53,6 +50,7 @@ onboard chip                            | -                                   | 
 port                                    | USB-C                               | USB-C                                 |
 SMT assembly required                   | no                                  | yes                                   |
 OLED Support                            | no                                  | yes                                   |
+South-paw support                       | yes                                 | yes                                   |
 firmware                                | [ATmega32U4](firmwares_atmega32u4)  | [GP2040-CE](https://gp2040-ce.info/)  |
 
 *) for details, see the documentation in the [GP2040-CE PS4/PS5 Compatibility FAQ](https://gp2040-ce.info/faq/faq-ps4-ps5-compatibility)

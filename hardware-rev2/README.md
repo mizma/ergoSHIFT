@@ -40,6 +40,7 @@ To make one you will need:
 * 2x 3x6x4.3 horizontal tact switch
     * https://www.newegg.com/p/2S7-01KR-035X0
     * https://shop.yushakobo.jp/collections/all-keyboard-parts/products/a1600ed-01-1
+    * You can also order from LCSC with part number [C18078123](https://www.lcsc.com/product-detail/Tactile-Switches_Bossie-BX-TS-26-3643ZJ_C18078123.html)
     * [schematics](images/tactile-switch_3x6x4.3.jpg)
 * 7x M3 screws (length 20mm)
     * Acryl top 2mm * 2 + 3mm = 7mm

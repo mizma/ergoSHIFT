@@ -42,6 +42,7 @@ To make one you will need:
 * 7x M3 nut and acompanying rubber feet
     * Rubber feet Tochigiya [TM-TK-15](https://www.monotaro.com/p/0933/2486/?displayId=5)
     * The position of the holes are intended for feet radius of less than 8mm
+* Some Tin coated wires
 * a soldering iron
     * something with enough power is better 
       (i.e. [Hakko FX 600](https://www.hakko.com/japan/products/hakko_fx600_set.html))
@@ -124,7 +125,7 @@ The Acrylic should look like the following (with PCB stacked)
 
 1. Solder all the Choc v1 switches and the tactile switches.  make sure you populate the side with the logo.
     * If you populate the side with the logo on the left, the parts only goes in in the correct orientation.
-        * For reverse layout, implement the buttons on the other side.
+        * For reverse layout, implement the buttons on the other side as shown in [this picture](images/Reverse-Layout-Solering.jpg)
     * If you use the hot-swap sockets, those will go on the back. (see silk screen on back side for orientation)
         * For hotswap sockets, pre-solder one side of the pad on PCB, place the socket, heat the pre-solder while
           pressing down on the socket to attach the socket.  After It is attached, solder the other side fully and then add more solder on the pre-soldered side.
@@ -148,7 +149,8 @@ The Acrylic should look like the following (with PCB stacked)
 
 It should look like the following when assembled.
 
-![ergoSHIFT-rev1](images/ergoSHIFT-rev1-bare.jpg)
+![ergoSHIFT-rev1](images/ergoSHIFT-rev1-bare1.jpg)
+![ergoSHIFT-rev1](images/ergoSHIFT-rev1-bare2.jpg)
 
 ### Pro-Tip 1. Filing the Acrylic Edges
 
@@ -164,13 +166,14 @@ You can also insert some artwork below the top acrylic layer as below:
 ![ergoSHIFT-rev1_with_artwork1](images/ergoSHIFT-rev1-final02.jpg)
 ![ergoSHIFT-rev1_with_artwork2](images/ergoSHIFT-rev1-final03.jpg)
 
-(*) Above sample Artwork based on a trace of In-Game Screenshot + Official Fan-kit (©ARK SYSTEM WORKS)
+(*) Above sample Artwork based on an In-Game Screenshot + Official Fan-kit (©Cygames & ARK SYSTEM WORKS)
 
 Stencil for the artwork can be found [HERE](./images/ergoSHIFT-stencil.svg).
 
 To cut the stencil, use one of the top acrylic plates as cutting guides (don't trust the acuracy
 of the printed stencil mark, they are good enough to use as design guide, but not acurate enough for 
-final cutting guide).  It is easy to cut if you tape the plate on top of the print.
+final cutting guide).  It is easy to cut if you tape the plate on top of the print and use a sharp
+designers knife.
 
 ![Stencil-Cutting](images/Stencil-Cutting.jpg)
 

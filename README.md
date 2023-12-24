@@ -21,6 +21,7 @@ This controller is designed with the following concept:
     * One on the left of the Jump button.  (intended for defensive buttons)
     * One on the top-left.
     * One above the index-middle finger position.
+* Make the button size compatible with Snackbox MICRO from [Junkfood Arcades](https://junkfoodarcades.com/)
 * make the design reversible for lefty use.
     * To assemble for left hand use, implement all buttons on the other side.
     * Pro-Micro needs to be implemented the same way

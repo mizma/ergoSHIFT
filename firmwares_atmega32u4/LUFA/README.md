@@ -115,7 +115,7 @@ The key config is already setup to match ergoSHIFT wiring.
 #define PIN_HOME  1
 ```
 
-For southpaw bersion, swap the PIN_LEFT and PIN_RIGHT definition and recompile.
+For southpaw version, swap the PIN_LEFT and PIN_RIGHT definition and recompile.
 
 ```C
 /* PINOUT (follows Nintendo naming (X=up, B=down)) */

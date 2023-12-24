@@ -115,6 +115,29 @@ The key config is already setup to match ergoSHIFT wiring.
 #define PIN_HOME  1
 ```
 
+For southpaw bersion, swap the PIN_LEFT and PIN_RIGHT definition and recompile.
+
+```C
+/* PINOUT (follows Nintendo naming (X=up, B=down)) */
+#define PIN_UP    7
+#define PIN_DOWN  4
+#define PIN_LEFT  5
+#define PIN_RIGHT 3
+#define PIN_A     MISO         //XBOX B
+#define PIN_B     10           //XBOX A  
+#define PIN_X     15           //XBOX Y
+#define PIN_Y     MOSI         //XBOX X     
+#define PIN_L     21           //XBOX LB
+#define PIN_R     20           //XBOX RB
+#define PIN_ZL    8            //XBOX LT
+#define PIN_ZR    19           //XBOX RT
+#define PIN_LS    6            //XBOX LS (left analog click)
+#define PIN_RS    9            //XBOX RS (right analog click)
+#define PIN_PLUS  2            //XBOX START
+#define PIN_MINUS 18           //XBOX BACK
+#define PIN_HOME  1
+```
+
 ## Donation
 
 If this project helped you, please consider going to the original works and donate to the source work ;)

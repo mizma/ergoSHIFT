@@ -35,6 +35,54 @@ ergoSHIFT [rev1](../hardware-rev1) に利用できます。
     * タイミングが難しい場合は以下に記載している .hex ファイルを取り出して QMK Toolbox で書き込みする方法も
       あります。
 
+### ピン配置
+
+.ino ファイルで設定可能です。
+
+こちらのリポジトリ内のファイルではすでに ergoSHIFT 向けに設定済みです。
+
+```C
+#define PIN_UP        7
+#define PIN_DOWN      4
+#define PIN_LEFT      3
+#define PIN_RIGHT     5
+#define PIN_CROSS     10
+#define PIN_CIRCLE    14
+#define PIN_TRIANGLE  15
+#define PIN_SQUARE    16
+#define PIN_L1        21
+#define PIN_L2        8
+#define PIN_R1        20
+#define PIN_R2        19
+#define PIN_SELECT    18
+#define PIN_START     2
+#define PIN_L3        6
+#define PIN_R3        9
+#define PIN_PS        1
+```
+
+左利きバージョン（左右反転版）の場合は PIN_LEFT と PIN_RIGHT の定義を入れ替えてください。
+
+```C
+#define PIN_UP        7
+#define PIN_DOWN      4
+#define PIN_LEFT      5
+#define PIN_RIGHT     3
+#define PIN_CROSS     10
+#define PIN_CIRCLE    14
+#define PIN_TRIANGLE  15
+#define PIN_SQUARE    16
+#define PIN_L1        21
+#define PIN_L2        8
+#define PIN_R1        20
+#define PIN_R2        19
+#define PIN_SELECT    18
+#define PIN_START     2
+#define PIN_L3        6
+#define PIN_R3        9
+#define PIN_PS        1
+```
+
 ### ファームの書き込み方法
 
 USB HID対応のファームをAVRボードに書き込みすると、Arduino IDEから書き込み時の自動リセットを受け付けなくなります。

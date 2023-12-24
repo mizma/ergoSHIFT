@@ -144,6 +144,29 @@ Arduino IDEで上記の設定が一通り終わった後にこのフォルダを
 #define PIN_HOME  1
 ```
 
+左利きバージョン（左右反転版）の場合は PIN_LEFT と PIN_RIGHT の定義を入れ替えてください。
+
+```C
+/* PINOUT (follows Nintendo naming (X=up, B=down)) */
+#define PIN_UP    7
+#define PIN_DOWN  4
+#define PIN_LEFT  5
+#define PIN_RIGHT 3
+#define PIN_A     MISO         //XBOX B
+#define PIN_B     10           //XBOX A  
+#define PIN_X     15           //XBOX Y
+#define PIN_Y     MOSI         //XBOX X     
+#define PIN_L     21           //XBOX LB
+#define PIN_R     20           //XBOX RB
+#define PIN_ZL    8            //XBOX LT
+#define PIN_ZR    19           //XBOX RT
+#define PIN_LS    6            //XBOX LS (left analog click)
+#define PIN_RS    9            //XBOX RS (right analog click)
+#define PIN_PLUS  2            //XBOX START
+#define PIN_MINUS 18           //XBOX BACK
+#define PIN_HOME  1
+```
+
 ## 寄付
 
 もしこのプロジェクトが参考担った場合はベースとなったプロジェクトにいって寄付すると大本のプロジェクトの

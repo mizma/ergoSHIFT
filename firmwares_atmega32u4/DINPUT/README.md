@@ -25,6 +25,54 @@ It works with ergoSHIFT [rev1](../hardware-rev1)
 - Select SparkFun Pro Micro (SparkFun AVR Boards) as your board type and select ATmega32U4 (5V, 16MHz) as your processor.
 - Upload the code and Have Fun
 
+### Pinout
+
+Configurable in the .ino
+
+The key config is already setup to match ergoSHIFT wiring.
+
+```C
+#define PIN_UP        7
+#define PIN_DOWN      4
+#define PIN_LEFT      3
+#define PIN_RIGHT     5
+#define PIN_CROSS     10
+#define PIN_CIRCLE    14
+#define PIN_TRIANGLE  15
+#define PIN_SQUARE    16
+#define PIN_L1        21
+#define PIN_L2        8
+#define PIN_R1        20
+#define PIN_R2        19
+#define PIN_SELECT    18
+#define PIN_START     2
+#define PIN_L3        6
+#define PIN_R3        9
+#define PIN_PS        1
+```
+
+For southpaw bersion, swap the PIN_LEFT and PIN_RIGHT definition and recompile.
+
+```C
+#define PIN_UP        7
+#define PIN_DOWN      4
+#define PIN_LEFT      5
+#define PIN_RIGHT     3
+#define PIN_CROSS     10
+#define PIN_CIRCLE    14
+#define PIN_TRIANGLE  15
+#define PIN_SQUARE    16
+#define PIN_L1        21
+#define PIN_L2        8
+#define PIN_R1        20
+#define PIN_R2        19
+#define PIN_SELECT    18
+#define PIN_START     2
+#define PIN_L3        6
+#define PIN_R3        9
+#define PIN_PS        1
+```
+
 ### How to upload
 
 When you reflash AVR boards with USB HID device software, Arduino IDE cannot automatically reset and flash the software.

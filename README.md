@@ -10,6 +10,12 @@ an arcade controller that look like this:
 
 ![image](./hardware-rev1/images/ergoSHIFT-rev1-bare1.jpg)
 
+Also, you can create custom artwork using the stencil provided in each hardware revision folder.
+
+![ergoSHIFT-rev1_with_artwork1](./hardware-rev1/images/ergoSHIFT-rev1-final01.jpg)
+
+(*) Above sample Artwork based on an In-Game Screenshot + Official Fan-kit (©Cygames & ARK SYSTEM WORKS)
+
 This controller is designed with the following concept:
 
 * Create a compact and thin leverless arcade controller

@@ -39,7 +39,7 @@ See the README for each version for details on how to make them.
 
 version                                 | [rev1](./hardware-rev1/)            | [rev2](./hardware-rev2/)              |
 --------------------------------------- | ----------------------------------- | ------------------------------------- |
-Status                                  | Verified                            | Initial build on-goind                |
+Status                                  | Verified                            | Initial build on-going                |
 case dimensions                         | 233.17x147.67x13.6mm                | 233.17x147.67x13.6mm                  |
 compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   |
 add-on board                            | Sparkfun Qwiic Pro Micro            | SH1106 128x64 oled screen             |

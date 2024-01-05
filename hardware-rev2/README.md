@@ -10,17 +10,17 @@ To make one you will need:
 
 * [acrylic shell](./acrylic-shell/)
     * For Standard Layout stackup (From bottom to top)
-        * acryl-design-ergoSHIFT-Acrylic-layer-01: 3mm
+        * acryl-design-ergoSHIFT-Acrylic-layer-01: 2mm
         * acryl-design-ergoSHIFT-Acrylic-layer-02: 3mm
         * PCB
         * acryl-design-ergoSHIFT-Acrylic-layer-03: 3mm
         * acryl-design-ergoSHIFT-Acrylic-layer-04: 3mm
         * acryl-design-ergoSHIFT-Acrylic-layer-05: 2mm
     * For Reverse Layout (Left handed, from bottom to top)
-        * acryl-design-ergoSHIFT-Acrylic-layer-01: 3mm
+        * acryl-design-ergoSHIFT-Acrylic-layer-01: 2mm
         * acryl-design-ergoSHIFT-Acrylic-layer-03: 3mm (to compensate for PCB being flipped upside down)
         * PCB
-        * acryl-design-ergoSHIFT-Acrylic-layer-03: 3mm
+        * acryl-design-ergoSHIFT-Acrylic-layer-04: 3mm
         * acryl-design-ergoSHIFT-Acrylic-layer-04: 3mm
         * acryl-design-ergoSHIFT-Acrylic-layer-05: 2mm
 * [the ergoSHIFT PCB](./pcb/)
@@ -59,7 +59,7 @@ To make one you will need:
       (i.e. [Hakko FX 600](https://www.hakko.com/japan/products/hakko_fx600_set.html))
     * I recommend changing tips to D type for most Through-hole soldering, or C type if you plan to
       solder SMT as well. (default B tips are harder to use for most PCB soldering)
-    * Use 230C ~ 250C temp recommended (can be changed if you know your way around)
+    * Use 320C ~ 370C temp recommended (can be changed if you know your way around)
 
 ## Assembly Instructions
 
@@ -155,14 +155,16 @@ The Acrylic should look like the following (with PCB stacked)
         * For reverse layout, implement the buttons on the other side.
     * If you use the hot-swap sockets, those will go on the other side. (see silk screen on back side for orientation)
         * For hotswap sockets, pre-solder one side of the pad on PCB, place the socket, heat the pre-solder while
-          pressing down on the socket to attach the socket.  After It is attached, solder the other side fully and then add more solder on the pre-soldered side.
+          pressing down on the socket to attach the socket.  After It is attached, solder the other side fully and then add more solder on the pre-soldered side. for details, see the [Readme_southpaw](./README_southpaw.md)
 3. stack the Acryl and PCB in following order: Layer 01, Layer 02, PCB, Layer 03, Layer 04 and Layer 05.
     * for reverse layout, stack in the order: Layer 01, Layer 03, PCB, Layer 03, Layer 04 and Layer 05.
 4. Screw on the M3 screws with the nut on all 7 locations.  Rubber feet should be inserted at least in the 4 corners between the nut and the acrylic.
 
 It should look like the following when assembled.
 
-![ergoSHIFT-rev2](images/ergoSHIFT-rev2-bare.jpg)
+![ergoSHIFT-rev2 bare straight down](images/ergoSHIFT-rev2-bare01.jpg)
+![ergoSHIFT-rev2 bare at angle](images/ergoSHIFT-rev2-bare02.jpg)
+![ergoSHIFT-rev2 bare turned on](images/ergoSHIFT-rev2-bare03.jpg)
 
 ### Pro-Tip 1. Filing the Acrylic Edges
 
@@ -182,16 +184,29 @@ You can also insert some artwork below the top acrylic layer as below:
 
 Stencil for the artwork can be found below (Page Size set to A4):
 
-* [Stencil SVG](./images/ergoSHIFT-stencil-with-OLED.png)
+* [Stencil SVG](./images/ergoSHIFT-stencil-with-OLED.svg)
 * [Stencil PNG 300dpi](./images/ergoSHIFT-stencil-with-OLED.png)
+* [Backplate Stencil SVG](./images/ergoSHIFT-backplate-stencil-with-OLED.svg)
+* [Backplate Stencil PNG 300dpi](./images/ergoSHIFT-backplate-stencil-with-OLED.png)
 * [Southpaw Stencil SVG](./images/ergoSHIFT-stencil-with-OLED-reversed.svg)
 * [Southpaw Stencil PNG 300dpi](./images/ergoSHIFT-stencil-with-OLED-reversed.png)
+* [Southpaw Backplate Stencil SVG](./images/ergoSHIFT-backplate-stencil-with-OLED-reversed.svg)
+* [Southpaw Backplate Stencil PNG 300dpi](./images/ergoSHIFT-backplate-stencil-with-OLED-reversed.png)
 
 To cut the stencil, use one of the top acrylic plates as cutting guides (don't trust the acuracy
 of the printed stencil mark, they are good enough to use as design guide, but not acurate enough for 
 final cutting guide).  It is easy to cut if you tape the plate on top of the print.
 
 ![Stencil-Cutting](images/Stencil-Cutting.jpg)
+
+For the OLED display portion, use Layer-04 acrylic for the sides and use the print mark for the
+horizontal cuts.
+
+## Donations
+
+This project is completely opensource.  If you feel you would like to donate, please consider donating
+to the [GP2040-CE](https://gp2040-ce.info/) project that made this project possible, or any of the other
+projects refered to below in the License and Acknowlegements section.
 
 ## License and Acknowlegements
 
@@ -208,3 +223,8 @@ PCB design uses the following libraries or derivatives of the design:
 * [Type-C.pretty](https://github.com/ai03-2725/Type-C.pretty) by [ai03-2725](https://github.com/ai03-2725)
 * RP2040 library from [Hardware design with RP2040](https://datasheets.raspberrypi.org/rp2040/hardware-design-with-rp2040.pdf) Chapter 2.
   Minimal design example.
+
+Portions of the PCB layout and parts selection has been referenced from the following builds:
+
+* [Open_Core0](https://github.com/OpenStickCommunity/Hardware/tree/main/Open_Core0) by [TheTrain](https://github.com/TheTrainGoes) ([Licensed under CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
+* [flatbox rev.4](https://github.com/jfedor2/flatbox/tree/master/hardware-rev4) by [jfedor](https://github.com/jfedor2) ([licensed under CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))

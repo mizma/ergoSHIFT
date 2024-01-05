@@ -48,7 +48,7 @@ To make one you will need:
       (i.e. [Hakko FX 600](https://www.hakko.com/japan/products/hakko_fx600_set.html))
     * I recommend changing tips to D type for most Through-hole soldering, or C type if you plan to
       solder SMT as well. (default B tips are harder to use for most PCB soldering)
-    * Use 230C ~ 250C temp recommended (can be changed if you know your way around)
+    * Use 320C ~ 370C temp recommended (can be changed if you know your way around)
 
 ## Assembly Instructions
 

@@ -8,11 +8,13 @@ _**Low profile 11 button leverless arcade controller with Acrylic shell**_
 This repository contains Acrylic cut design files, PCB design files and code needed to make
 an arcade controller that look like this:
 
-![image](./hardware-rev1/images/ergoSHIFT-rev1-bare1.jpg)
+![image](./hardware-rev2/images/ergoSHIFT-rev2-bare01.jpg)
+![image](./hardware-rev2/images/ergoSHIFT-rev2-bare03.jpg)
 
 Also, you can create custom artwork using the stencil provided in each hardware revision folder.
 
-![ergoSHIFT-rev1_with_artwork1](./hardware-rev1/images/ergoSHIFT-rev1-final01.jpg)
+![ergoSHIFT-rev1_with_artwork1](./images/ergoSHIFT_sample_with_artwork01.jpg)
+![ergoSHIFT-rev1_with_artwork2](./images/ergoSHIFT_sample_with_artwork02.jpg)
 
 (*) Above sample Artwork based on an In-Game Screenshot + Official Fan-kit (©Cygames & ARK SYSTEM WORKS)
 
@@ -37,7 +39,7 @@ This controller is designed with the following concept:
 Resulting button mappings will look like this:
 
 ![button-map](hardware-rev1/images/ergoSHIFT-stencil.png)
-![burron-map-reversed](hardware-rev1/images/ergoSHIFT-stencil-reverse.png)
+![button-map-reversed](hardware-rev1/images/ergoSHIFT-stencil-reverse.png)
 
 There is currently one revision of the ergoSHIFT.  It uses Kailh low profile (choc v1)
 mechanical keyboard switches.  The table below lists their main features.
@@ -45,18 +47,22 @@ See the README for each version for details on how to make them.
 
 version                                 | [rev1](./hardware-rev1/)            | [rev2](./hardware-rev2/)              |
 --------------------------------------- | ----------------------------------- | ------------------------------------- |
-Status                                  | Verified                            | Initial build on-going                |
-case dimensions                         | 233.17x147.67x13.6mm                | 233.17x147.67x13.6mm                  |
+Status                                  | Verified                            | Verified                              |
+case dimensions                         | 233.17x147.67x22.7mm                | 233.17x147.67x22.8mm                  |
 compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   |
-add-on board                            | Sparkfun Qwiic Pro Micro            | SH1106 128x64 oled screen             |
+add-on board                            | Sparkfun Qwiic Pro Micro            | SSD1306, SH1106 or SH1107 128x64 oled |
 onboard chip                            | -                                   | RP2040                                |
 port                                    | USB-C                               | USB-C                                 |
 SMT assembly required                   | no                                  | yes                                   |
 OLED Support                            | no                                  | yes                                   |
 South-paw support                       | yes                                 | yes                                   |
-firmware                                | [ATmega32U4](firmwares_atmega32u4)  | [GP2040-CE](https://gp2040-ce.info/)  |
+firmware                                | [ATmega32U4](firmwares_atmega32u4)  | [GP2040-CE](https://gp2040-ce.info/)**|
 
 *) for details, see the documentation in the [GP2040-CE PS4/PS5 Compatibility FAQ](https://gp2040-ce.info/faq/faq-ps4-ps5-compatibility)
+
+**) Currently the firmware is not available from the GP2040-CE project page.
+See [GP2040 firmware page](./firmware_GP2040-CE/) for
+[prebuilt firmware](./firmware_GP2040-CE/GP2040-CE_0.0.0_ergoSHIFTRev2.uf2) and the config files used.
 
 LICENSE
 ------------------------------------------------------------------------

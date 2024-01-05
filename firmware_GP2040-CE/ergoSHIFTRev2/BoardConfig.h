@@ -3,8 +3,8 @@
  * SPDX-FileCopyrightText: Copyright (c) 2021 Jason Skuby (mytechtoybox.com)
  */
 
-#ifndef PICO_BOARD_CONFIG_H_
-#define PICO_BOARD_CONFIG_H_
+#ifndef _ERGOSHIFT_REV2_BOARD_CONFIG_H_
+#define _ERGOSHIFT_REV2_BOARD_CONFIG_H_
 
 #include "enums.pb.h"
 
@@ -58,7 +58,7 @@
 #define I2C_SDA_PIN 4
 #define I2C_SCL_PIN 5
 #define I2C_BLOCK i2c0
-#define I2C_SPEED 800000
+#define I2C_SPEED 400000
 #define DISPLAY_FLIP 0
 #define DISPLAY_INVERT 0
 

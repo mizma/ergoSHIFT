@@ -1,8 +1,6 @@
 ergoSHIFT rev2
 ========================================================================
 
-_**DESIGN NOT VERIFIED**_
-
 This is rev2 of the ergoSHIFT.  In this version, RP2040 circuitry is
 implemented on the PCB.
 

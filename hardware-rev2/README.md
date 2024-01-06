@@ -124,14 +124,14 @@ Upload the .zip file in [acrylic-shell](acrylic-shell/) to the Elecrow Acrylic c
 Use the following thickness:
 
 * For Standard Layout stackup (From bottom to top)
-    * acryl-design-ergoSHIFT-Acrylic-layer-01: 3mm
+    * acryl-design-ergoSHIFT-Acrylic-layer-01: 2mm
     * acryl-design-ergoSHIFT-Acrylic-layer-02: 3mm
     * PCB
     * acryl-design-ergoSHIFT-Acrylic-layer-03: 3mm
     * acryl-design-ergoSHIFT-Acrylic-layer-04: 3mm
     * acryl-design-ergoSHIFT-Acrylic-layer-05: 2mm
 * For Reverse Layout (Left handed, from bottom to top)
-    * acryl-design-ergoSHIFT-Acrylic-layer-01: 3mm
+    * acryl-design-ergoSHIFT-Acrylic-layer-01: 2mm
     * acryl-design-ergoSHIFT-Acrylic-layer-03: 3mm (to compensate for PCB being flipped upside down)
     * PCB
     * acryl-design-ergoSHIFT-Acrylic-layer-03: 3mm

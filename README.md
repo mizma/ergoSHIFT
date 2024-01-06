@@ -20,17 +20,15 @@ Also, you can create custom artwork using the stencil provided in each hardware 
 
 This controller is designed with the following concept:
 
-* Create a compact and thin leverless arcade controller
+* Create a reasonably compact and thin leverless arcade controller
 * Layout 11 main buttons + 4 directional buttons to work with the latest 
   Capcom Pro-Tour rule-set
-* Shift the home position for the main button one column to the right 
-  to releave your pinky from the lower right button.
+* Shift the home position for the main button one column to the right to better utilize the 
+  more dextrous thumb and index finger instead of the little finger.
 * Add the three additionally allowed buttons
-    * One on the left of the Jump button.  (intended for defensive buttons)
-    * One on the top-left.
-    * One above the index-middle finger position.
 * Make the button size compatible with Snackbox MICRO from [Junkfood Arcades](https://junkfoodarcades.com/)
-* make the design reversible for lefty use.
+    * I could not find good Injection molded options other than this one.
+* Make the design reversible for southpaw use.
     * To assemble for left hand use, implement all buttons on the other side.
     * Controller Circuit (Pro Micro or RP2040) must be implemented on the same side
     * to compensate for the Controller Cicuitry being implemented in reverse, Acrylic layers will need to be 
@@ -41,14 +39,14 @@ Resulting button mappings will look like this:
 ![button-map](hardware-rev1/images/ergoSHIFT-stencil.png)
 ![button-map-reversed](hardware-rev1/images/ergoSHIFT-stencil-reverse.png)
 
-There is currently one revision of the ergoSHIFT.  It uses Kailh low profile (choc v1)
+There are currently two revisions of the ergoSHIFT.  It uses Kailh low profile (choc v1)
 mechanical keyboard switches.  The table below lists their main features.
 See the README for each version for details on how to make them.
 
 version                                 | [rev1](./hardware-rev1/)            | [rev2](./hardware-rev2/)              |
 --------------------------------------- | ----------------------------------- | ------------------------------------- |
 Status                                  | Verified                            | Verified                              |
-case dimensions                         | 233.17x147.67x22.7mm                | 233.17x147.67x22.8mm                  |
+case dimensions                         | 233.17x147.67x14.6mm (excl. feet)   | 233.17x147.67x14.6mm (excl. feet)     |
 compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   |
 add-on board                            | Sparkfun Qwiic Pro Micro            | SSD1306, SH1106 or SH1107 128x64 oled |
 onboard chip                            | -                                   | RP2040                                |

@@ -29,8 +29,8 @@
 #define PIN_BUTTON_L3   10  // L3     | LS     | LS      | L3       | 11     | LS     |
 #define PIN_BUTTON_R3   17  // R3     | RS     | RS      | R3       | 12     | RS     |
 #define PIN_BUTTON_A1   2   // A1     | Guide  | Home    | PS       | 13     | ~      |
-#define PIN_BUTTON_A2   -1  // A2     | ~      | Capture | ~        | 14     | ~      |
-#define PIN_BUTTON_FN   1  // Hotkey Function                                        |
+#define PIN_BUTTON_A2   1   // A2     | ~      | Capture | ~        | 14     | ~      |
+#define PIN_BUTTON_FN   -1  // Hotkey Function                                        |
 
 // Keyboard Mapping Configuration
 //                                            // GP2040 | Xinput | Switch  | PS3/4/5  | Dinput | Arcade |

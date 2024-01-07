@@ -125,11 +125,13 @@ should see the following:
 ![parts placement](./images/parts_placement.png)
 
 Check to make sure that all parts are aligned (see if components are placed as shown in image, 
-and the purple dots are in the same position) (BOM and CPL file has been checked on 2024/01/06 and should
-align at the time of writing.).  If there are any anomallies, stop and ask for help in the issues
-(JLCPCB seems to change the part placement data sometime and break CPL compatibility).
+and the purple dots are in the same position).  BOM and CPL file has been checked on 2024/01/06 and should
+work out of the box.  If there are any anomallies, stop and ask for help in the issues (possible issues
+include parts shortage, parts design revision etc. that break the BOM and CPL).
 
 If you wish to implement the SMT parts yourself, check the Order together with PCB toggle ON.
+Check for the BOM file for the actual components used.  Search on [LCSC](https://www.lcsc.com/)
+with LCSC part number to figure out what parts are used.
 
 You will need a fairly large SMT reflow oven, soldering hotplate (recommended) that can fit the PCB
 or at least a soldering hot air gun.

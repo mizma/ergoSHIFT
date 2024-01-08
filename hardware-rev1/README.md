@@ -66,25 +66,32 @@ You can purchase them [HERE](https://junkfoodarcades.com/collections/micro-acces
 
 #### 3D printed buttons
 
-_**NOT VERIFIED**_
+_**Currently verifying design**_
 
 If you have a 3D printer, print at your own will.  Files are found [here](../3d-printed-buttoncaps/).
 
 * [ergoSHIFT-ButtonCapBig.stl](../3d-printed-buttoncaps/ergoSHIFT-ButtonCapBig.stl) 
   is used for the thumb button. 1 board needs 1 of this button.
-* [ergoSHIFT-Buttoncap.stl](../3d-printed-buttoncaps/ergoSHIFT-ButtonCapBig.stl) is used for all ther buttons.
-  1 board needs 11 of this button.
+* [ergoSHIFT-Buttoncap.stl](../3d-printed-buttoncaps/ergoSHIFT-ButtonCapBig.stl) is used for all other buttons.
+  1 board needs 14 of this button.
 * [ergoSHIFT-FullSetButtonCaps.stl](../3d-printed-buttoncaps/ergoSHIFT-FullSetButtonCaps.stl) is an STL file 
-  containing 1 full set of buttons (11 small and 1 big.).  If your 3D printing service allows 12 or more shells,
-  it may be cheaper to print in one batch using this STL file.
-    * Print size needs to be bigger than X：99.0000mm x Y： 93.5000mm x Z： 6.0000mm
+  containing 1 full set of buttons + extra(26 small and 2 big.).  If your 3D printing service allows 28 or more shells, it may be cheaper to print in one batch using this STL file.
+    * Print size needs to be bigger than X：99.4901mm x Y： 91.7951mm x Z： 15.0000mm
+    * To accomodate for the buttons in the 100mm x 100mm x 100mm size limit in some Printing services,
+      This STL file has two layers of buttons arranged on top of each other.  This type of layout is only
+      possible on print technology such as SLS or MJF.  Check with your 3D Printing service.
+    * If your 3D Printing service does not support this type of data, use individual cap data to print.
 
 Insertion portion may need to be adjusted in size for your 3D Printer and settings to fit snugly to the switch.
 You may use some of the printer features but if that doesn't work, you might want to edit the original model.
-Model data are found in the same directory in a [FreeCAD](https://www.freecadweb.org/) file format.
+Model data are found in [here](../3d-printed-buttoncaps/design_data/) in a [FreeCAD](https://www.freecadweb.org/)
+file format.
 
-Also, since the insertion portion requires a fairly tight tolerance which is not easily achieved by 3D printers.
-To that extent, the models are modelled slightly on the larger side.  I have had fairly good results with this model using SLS Nylon print but sometimes it is too large.  Which can be filed down to fit.
+Also, since the insertion portion requires a fairly tight tolerance which is not easily achieved by 3D printers,
+the models are modelled slightly on the larger side.
+
+I have had fairly good results with this model using SLS/MJF Nylon print but sometimes it is too large.
+If the legs turn out too large to fit, use sandpaper to adjust the width of the legs.
 
 #### Materials Consideration
 

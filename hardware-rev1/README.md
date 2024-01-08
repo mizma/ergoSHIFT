@@ -23,7 +23,6 @@ To make one you will need:
     * [MICRO keycap set](https://junkfoodarcades.com/collections/micro-accessories)
         * You will need to buy two sets of Snackbox Micro keycap sets.
     * [3D printed buttoncaps](../3d-printed-buttoncaps)
-        * Not yet ready
 * 3x 6x6x8.51mm tact switches
     * I Used [TE Connectivity 3-1825910-5](https://www.te.com/ja/product-3-1825910-5.html)
 * 1x 3x6x4.3 horizontal tact switch
@@ -67,7 +66,7 @@ You can purchase them [HERE](https://junkfoodarcades.com/collections/micro-acces
 
 #### 3D printed buttons
 
-_**NOT IMPLEMENTED**_
+_**NOT VERIFIED**_
 
 If you have a 3D printer, print at your own will.  Files are found [here](../3d-printed-buttoncaps/).
 

@@ -114,7 +114,7 @@ Options Used for SMT Assembly at JLCPCB:
 * Assembly Side: Top Side
 * PCBA Qty: Choose
 * Tooling holes: Added by Customer
-* Confirm Parts Placement: No (Can be Yes if you wish)
+* Confirm Parts Placement: Yes (This will make sure JLC will check if the parts are aligned and stop if they see any annomalies)
 
 For Advanced Options, Keep as default.
 
@@ -129,7 +129,7 @@ and the purple dots are in the same position).  BOM and CPL file has been checke
 work out of the box.  If there are any anomallies, stop and ask for help in the issues (possible issues
 include parts shortage, parts design revision etc. that break the BOM and CPL).
 
-If you wish to implement the SMT parts yourself, check the Order together with PCB toggle ON.
+If you wish to implement the SMT parts yourself, toggle the "Order together with PCB" in the stencil section to ON.
 Check for the BOM file for the actual components used.  Search on [LCSC](https://www.lcsc.com/)
 with LCSC part number to figure out what parts are used.
 

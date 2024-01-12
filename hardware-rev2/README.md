@@ -97,8 +97,8 @@ Here are the settings I use:
 * Outer Copper Weight: 1oz
 * Via Covering: Tented
 * Board Outline Tolerance: 0.2mm
-* CConfirm Production File: No
-* Remove Order Number: No
+* Confirm Production File: No
+* Remove Order Number: Choose (No: JLC will put order number SILKSCREEN on the PCB somewhere.  Setting to Yes will remove this for a small additional cost)
 * Gold Fingers: No
 * Castellated Holes: No
 * Edge Plating: No

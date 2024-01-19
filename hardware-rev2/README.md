@@ -151,8 +151,6 @@ You will need at least two sets since ergoSHIFT has more buttons.
 
 #### 3D printed buttons
 
-_**Currently verifying design**_
-
 If you have a 3D printer, print at your own will.  Files are found [here](../3d-printed-buttoncaps/).
 
 * [ergoSHIFT-ButtonCapBig.stl](../3d-printed-buttoncaps/ergoSHIFT-ButtonCapBig.stl) 
@@ -176,7 +174,9 @@ Also, since the insertion portion requires a fairly tight tolerance which is not
 the models are modelled slightly on the larger side.
 
 I have had fairly good results with this model using SLS/MJF Nylon print but sometimes it is too large.
-If the legs turn out too large to fit, use sandpaper to adjust the width of the legs.
+If the legs turn out too large to fit, use sandpaper to adjust the width/depth of the legs.  __Don't Force
+the CAPS in.__  Forcing them in may cause the button to become stuck (due to stems bulging).  File
+the legs slightly and retry if it doesn't go in.
 
 #### Materials Consideration
 

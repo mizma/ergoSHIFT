@@ -3,7 +3,7 @@
 ![ergoSHIFT Rev.2](./assets/ergoSHIFT-rev2-bare1.jpg)
 
 Configuration for the [ergoSHIFT Rev.2](https://github.com/mizma/ergoSHIFT/tree/main/hardware-rev2), a 4+11 button lever-less
-arcade controller design by [mizma](https://github.com/mizma/).
+arcade controller designed by [mizma](https://github.com/mizma/).
 
 ## Button mapping
 

@@ -2,7 +2,7 @@
 
 [日本語はこちら](README_ja.md)
 
-There are currently two firmwares that is customized to work with ATMEGA32U4 5V AVR version of the Flatbox ACR boards (3.3V board are not supported).
+There are currently two firmwares that is customized to work with ATMEGA32U4 5V AVR version of the ergoSHIFT board (3.3V board are not supported).
 
 Both controllers should work similarly in terms of SOCD cleaning configuration and Up/Down inversion configuration.
 

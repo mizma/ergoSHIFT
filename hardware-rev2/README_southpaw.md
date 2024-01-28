@@ -36,6 +36,9 @@ Stackup
    are on this side.
    ![Third Layer](./images/ergoSHIFT_southpaw_stackup04.jpg)
    ![Forth Layer](./images/ergoSHIFT_southpaw_stackup05.jpg)
+   For soldering the OLED display, it's best to stack the fron layers in 
+   reverse order and solder with the display sitting insied the case.
+   ![OLED Soldering](./images/ergoSHIFT_southpaw_DisplaySoldering.jpg)
 5. Final Layer is the same.
    ![Final Layer](./images/ergoSHIFT_southpaw_stackup06.jpg)
 6. For the USB-C port, you may need to grind down the first layer if
@@ -43,3 +46,10 @@ Stackup
    ![USB Port](./images/ergoSHIFT_southpaw_stackup07.jpg)
 
 For the rest of the build, follow the [README](./README.md)
+
+Once, built, it should look something like this (without button caps).
+
+![Southpaw build](./images/ergoSHIFT_southpaw_booted.jpg)
+
+You will need to go into Web Config and change the settings for the display
+and the right and left button mapping.

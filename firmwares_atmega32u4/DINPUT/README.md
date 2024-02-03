@@ -51,7 +51,7 @@ The key config is already setup to match ergoSHIFT wiring.
 #define PIN_PS        1
 ```
 
-For southpaw bersion, swap the PIN_LEFT and PIN_RIGHT definition and recompile.
+For southpaw version, swap the PIN_LEFT and PIN_RIGHT definition and recompile.
 
 ```C
 #define PIN_UP        7

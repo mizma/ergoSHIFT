@@ -12,7 +12,7 @@ the project site, here are the files necessary to make the rev.2 working
 ### Prebuilt firmware file
 
 If you just want the thing to work, download the
-[Prebuilt Firmware](./GP2040-CE_0.7.7_ergoSHIFTRev2.uf2) file, connect
+[Prebuilt Firmware](./GP2040-CE_0.7.8_ergoSHIFTRev2.uf2) file, connect
 the board to your PC, when you see a USB thumbdrive mounted called `RPI-RP2`,
 just drag and drop the firmware file.
 

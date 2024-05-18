@@ -236,6 +236,12 @@ The Acrylic should look like the following (with PCB stacked)
       GND, VCC, SCL, SDA
     * For southpaw layout, the pins should be soldered to the bottom 4 through-holess with pins from left
       to right: SDA, SCL, VCC, GND
+    * **IMPORRTANT** Tolerance consideration: When soldering the OLED screen, stack up the acrylic boards 
+      with the OLED screen and PCB and make sure the OLED screen is in the final assembled position when
+      soldering (see image).  The tolerance between the highest point in OLED screen and the acrylic board opening is only
+      around 0.2~0.3mm and a sloppy soldering will make the front acrylic interfere with the OLED so it is hightly advised
+      that the _**soldering is done in an assembled position**_.
+        * ![ergoSHIFT OLED](images/ergoSHIFT_OLED_Soldering.jpg)
 3. stack the Acryl and PCB in following order: Layer 01, Layer 02, PCB, Layer 03, Layer 04 and Layer 05.
     * for reverse layout, stack in the order: Layer 01, Layer 03, PCB, Layer 04, Layer 04 and Layer 05.
     * For details on how to build southpaw version, see the [Readme_southpaw](./README_southpaw.md)

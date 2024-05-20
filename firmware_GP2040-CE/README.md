@@ -16,6 +16,9 @@ If you just want the thing to work, download the
 the board to your PC, when you see a USB thumbdrive mounted called `RPI-RP2`,
 just drag and drop the firmware file.
 
+Current Prebuilt Firmware File has modifications in [adilahmeddev's branch](https://github.com/adilahmeddev/GP2040-CE-ERGOSHIFT-DISPLAY)
+applied which implements button display layout taylored for ergoSHIFT.
+
 If you don't see the `RPI-RP2`, Hold down the `BOOT` button (the side tactile 
 switch on the left) and press the `RST` button (the side tactile swith with
 `SW_RST1` label).

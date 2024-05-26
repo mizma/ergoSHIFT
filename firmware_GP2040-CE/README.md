@@ -23,7 +23,7 @@ You may choose other versions as well
 
 | Firmware  | Note  |
 | :---      | :---  |
-| [0.7.7](./GP2040-CE_0.7.7_ergoSHIFTRev2.uf2) | upstream 0.7.8 tag with ergoSHIFTRev2 BoardConfig |
+| [0.7.7](./GP2040-CE_0.7.7_ergoSHIFTRev2.uf2) | upstream 0.7.7 tag with ergoSHIFTRev2 BoardConfig |
 | [0.7.8](./GP2040-CE_0.7.8_ergoSHIFTRev2.uf2) | upstream 0.7.8 tag with ergoSHIFTRev2 BoardConfig |
 | [0.7.8 with display layout](./GP2040-CE_0.7.8-display_ergoSHIFTRev2.uf2) | 0.7.8 with ergoSHIFTRev2 BoardCOnfig and Display layout patch |
 

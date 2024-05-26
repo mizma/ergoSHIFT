@@ -12,12 +12,20 @@ the project site, here are the files necessary to make the rev.2 working
 ### Prebuilt firmware file
 
 If you just want the thing to work, download the
-[Prebuilt Firmware](./GP2040-CE_0.7.8_ergoSHIFTRev2.uf2) file, connect
+[Prebuilt Firmware](./GP2040-CE_0.7.8-display_ergoSHIFTRev2.uf2) file, connect
 the board to your PC, when you see a USB thumbdrive mounted called `RPI-RP2`,
 just drag and drop the firmware file.
 
 Current Prebuilt Firmware File has modifications in [adilahmeddev's branch](https://github.com/adilahmeddev/GP2040-CE-ERGOSHIFT-DISPLAY)
 applied which implements button display layout taylored for ergoSHIFT.
+
+You may choose other versions as well
+
+| Firmware  | Note  |
+| :---      | :---  |
+| [0.7.7](./GP2040-CE_0.7.7_ergoSHIFTRev2.uf2) | upstream 0.7.8 tag with ergoSHIFTRev2 BoardConfig |
+| [0.7.8](./GP2040-CE_0.7.8_ergoSHIFTRev2.uf2) | upstream 0.7.8 tag with ergoSHIFTRev2 BoardConfig |
+| [0.7.8 with display layout](./GP2040-CE_0.7.8-display_ergoSHIFTRev2.uf2) | 0.7.8 with ergoSHIFTRev2 BoardCOnfig and Display layout patch |
 
 If you don't see the `RPI-RP2`, Hold down the `BOOT` button (the side tactile 
 switch on the left) and press the `RST` button (the side tactile swith with

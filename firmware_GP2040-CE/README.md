@@ -27,6 +27,9 @@ You may choose other versions as well
 | [0.7.8](./GP2040-CE_0.7.8_ergoSHIFTRev2.uf2) | upstream 0.7.8 tag with ergoSHIFTRev2 BoardConfig |
 | [0.7.8 with display layout](./GP2040-CE_0.7.8-display_ergoSHIFTRev2.uf2) | 0.7.8 with ergoSHIFTRev2 BoardCOnfig and Display layout patch |
 
+Latest firmware is available at the [fork of GP2040-CE](https://github.com/mizma/GP2040-CE) which
+has the display patch mentioned above.
+
 If you don't see the `RPI-RP2`, Hold down the `BOOT` button (the side tactile 
 switch on the left) and press the `RST` button (the side tactile swith with
 `SW_RST1` label).

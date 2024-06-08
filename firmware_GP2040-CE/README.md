@@ -7,19 +7,22 @@ ergoSHIFT rev.2
 rev.2 uses [GP2040-CE firmware](https://gp2040-ce.info/).
 
 Since the firmware build for ergoSHIFT is not available from
-the project site, here are the files necessary to make the rev.2 working
+the project site, below are the information necessary to obtain the firmware.
 
 ### Prebuilt firmware file
 
-If you just want the thing to work, download the
-[Prebuilt Firmware](./GP2040-CE_0.7.8-display_ergoSHIFTRev2.uf2) file, connect
-the board to your PC, when you see a USB thumbdrive mounted called `RPI-RP2`,
-just drag and drop the firmware file.
+If you would like to obtain the original GP2040-CE mainline builds, the firmware 
+is available in their [Github Release page](https://github.com/OpenStickCommunity/GP2040-CE/releases) after v0.7.9-RC2
 
-Current Prebuilt Firmware File has modifications in [adilahmeddev's branch](https://github.com/adilahmeddev/GP2040-CE-ERGOSHIFT-DISPLAY)
-applied which implements button display layout taylored for ergoSHIFT.
+Once you have downloaded the file, connect the board to your PC, 
+when you see a USB thumbdrive mounted called `RPI-RP2`,
+just drag and drop the firmware file. (You will need to hold down the `BOOT` button 
+when you connect if you already have firmware written to it)
 
-You may choose other versions as well
+You may also obtain firmware with display layout enhancement by [adilahmeddev's branch](https://github.com/adilahmeddev/GP2040-CE-ERGOSHIFT-DISPLAY)
+in [My fork repository releases](https://github.com/mizma/GP2040-CE/releases).
+
+You may also choose some of the older builds at official release points as well.
 
 | Firmware  | Note  |
 | :---      | :---  |
@@ -27,17 +30,16 @@ You may choose other versions as well
 | [0.7.8](./GP2040-CE_0.7.8_ergoSHIFTRev2.uf2) | upstream 0.7.8 tag with ergoSHIFTRev2 BoardConfig |
 | [0.7.8 with display layout](./GP2040-CE_0.7.8-display_ergoSHIFTRev2.uf2) | 0.7.8 with ergoSHIFTRev2 BoardCOnfig and Display layout patch |
 
-Latest firmware is available at the [fork of GP2040-CE](https://github.com/mizma/GP2040-CE) which
-has the display patch mentioned above.
-
 If you don't see the `RPI-RP2`, Hold down the `BOOT` button (the side tactile 
 switch on the left) and press the `RST` button (the side tactile swith with
 `SW_RST1` label).
 
 ### Building your own firmware
 
-You can use the [Config files](./ergoSHIFTRev2/) and follow the instructions
-in the original [GP2040-CE firmware](https://gp2040-ce.info/) website.
+You can use the original [GP2040-CE repository](https://github.com/OpenStickCommunity/GP2040-CE) source to build firmware for ergoSHIFTRev2.
+
+when building, set up the GP2040_BOARDCONFIG environment variable to `ergoSHIFTRev2`.
+For how to build the firmware, follow the instructions in the original [GP2040-CE firmware](https://gp2040-ce.info/) website.
 
 Building instructions should be found under `Contribute -> Firmware Development`
 

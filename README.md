@@ -59,8 +59,7 @@ firmware                                | [ATmega32U4](firmwares_atmega32u4)  | 
 *) for details, see the documentation in the [GP2040-CE PS4/PS5 Compatibility FAQ](https://gp2040-ce.info/faq/faq-ps4-ps5-compatibility)
 
 **) Currently the firmware is not available from the GP2040-CE project page.
-See [GP2040 firmware page](./firmware_GP2040-CE/) for
-[prebuilt firmware](./firmware_GP2040-CE/GP2040-CE_0.0.0_ergoSHIFTRev2.uf2) and the config files used.
+See [GP2040 firmware page](./firmware_GP2040-CE/) for prebuilt firmware and the instructions on how to build your own.
 
 LICENSE
 ------------------------------------------------------------------------

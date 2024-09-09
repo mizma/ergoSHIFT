@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/Type-C.pretty")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/RP2040.pretty")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/keyswitches.pretty")(options "")(descr ""))
+  (lib (name "ergoSHIFT")(type "KiCad")(uri "${KIPRJMOD}/ergoSHIFT.pretty")(options "")(descr ""))
+)

@@ -4,3 +4,6 @@ hardware-rev1/design_data/ergoSHIFT-rev1-kicad/ergoSHIFT-rev1-kicad-backups/
 **/c_cpp_properties.json
 *.bak
 hardware-rev2/design_data/ergoSHIFT-rev2-kicad/ergoSHIFT-rev2-kicad-backups/
+.DS_Store
+hardware-rgb/design_data/ergoSHIFT-rgb-kicad/ergoSHIFT-rgb/ergoSHIFT-rev2-kicad-backups/
+hardware-rgb/design_data/ergoSHIFT-rgb-kicad/ergoSHIFT-rgb/ergoSHIFT-rgb-backups/

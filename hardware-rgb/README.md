@@ -12,4 +12,6 @@ The firmware from the Rev2 folder works for this along with enabling the RGB LED
 ![LED Configuration](./images/ergoshift_rgb_LED_config.png)
 
 
+This version of Ergoshift has been modified to only work in the standard (non Southpaw) configuration so that there is PCB area for RGB LEDs. The Kailh sockets are also required for this version (rev2 can use Kailh sockets or switches directly) and can only be installed in the normal configuration.
+
 All other assembly steps are the same as the hardware-rev2 steps

@@ -482,7 +482,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ergoSHIFT-rgb.net",
-      "plot": "",
+      "plot": "../../../pcb/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

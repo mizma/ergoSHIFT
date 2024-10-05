@@ -6,8 +6,7 @@ ergoSHIFT rev.2
 
 rev.2 uses [GP2040-CE firmware](https://gp2040-ce.info/).
 
-Since the firmware build for ergoSHIFT is not available from
-the project site, below are the information necessary to obtain the firmware.
+See below for some of the options on obtaining the firmware for ergoSHIFT.
 
 ### Prebuilt firmware file
 

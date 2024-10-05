@@ -43,23 +43,24 @@ There are currently two revisions of the ergoSHIFT.  It uses Kailh low profile (
 mechanical keyboard switches.  The table below lists their main features.
 See the README for each version for details on how to make them.
 
-version                                 | [rev1](./hardware-rev1/)            | [rev2](./hardware-rev2/)              |
---------------------------------------- | ----------------------------------- | ------------------------------------- |
-Status                                  | Verified                            | Verified                              |
-case dimensions                         | 233.17x147.67x14.6mm (excl. feet)   | 233.17x147.67x14.6mm (excl. feet)     |
-compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   |
-add-on board                            | Sparkfun Qwiic Pro Micro            | SSD1306, SH1106 or SH1107 128x64 oled |
-onboard chip                            | -                                   | RP2040                                |
-port                                    | USB-C                               | USB-C                                 |
-SMT assembly required                   | no                                  | yes                                   |
-OLED Support                            | no                                  | yes                                   |
-South-paw support                       | yes                                 | yes                                   |
-firmware                                | [ATmega32U4](firmwares_atmega32u4)  | [GP2040-CE](https://gp2040-ce.info/)**|
+version                                 | [rev1](./hardware-rev1/)            | [rev2](./hardware-rev2/)              | [rgb](./hardware-rgb/)                | 
+--------------------------------------- | ----------------------------------- | ------------------------------------- | ------------------------------------- | 
+Status                                  | Verified                            | Verified                              | Verified                              | 
+case dimensions                         | 233.17x147.67x14.6mm (excl. feet)   | 233.17x147.67x14.6mm (excl. feet)     | 233.17x147.67x14.6mm (excl. feet)     | 
+compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   | PC, PS3, PS4*, PS5*, Xinput, Switch   | 
+add-on board                            | Sparkfun Qwiic Pro Micro            | SSD1306, SH1106 or SH1107 128x64 oled | SSD1306, SH1106 or SH1107 128x64 oled | 
+onboard chip                            | -                                   | RP2040                                | RP2040                                | 
+port                                    | USB-C                               | USB-C                                 | USB-C                                 | 
+SMT assembly required                   | no                                  | yes                                   | yes                                   | 
+OLED Support                            | no                                  | yes                                   | yes                                   | 
+RGB Support                             | no                                  | no                                    | yes                                   | 
+South-paw support                       | yes                                 | yes                                   | no                                    | 
+firmware                                | [ATmega32U4](firmwares_atmega32u4)  | [GP2040-CE](https://gp2040-ce.info/)**| [GP2040-CE](https://gp2040-ce.info/)**| 
 
-*) for details, see the documentation in the [GP2040-CE PS4/PS5 Compatibility FAQ](https://gp2040-ce.info/faq/faq-ps4-ps5-compatibility)
+*) for details, see the documentation in the [GP2040-CE Console Compatibility FAQ](https://gp2040-ce.info/faq/faq-console-compatibility/)
 
-**) Currently the firmware is not available from the GP2040-CE project page.
-See [GP2040 firmware page](./firmware_GP2040-CE/) for prebuilt firmware and the instructions on how to build your own.
+**) Firmware is available from the official [GP2040-CE Website](https://gp2040-ce.info/downloads)
+See [GP2040 firmware page](./firmware_GP2040-CE/) for firmware with ergoSHIFT specific patches (i.e. OLED display layout patch)
 
 LICENSE
 ------------------------------------------------------------------------

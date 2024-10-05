@@ -12,7 +12,7 @@ the project site, below are the information necessary to obtain the firmware.
 ### Prebuilt firmware file
 
 If you would like to obtain the original GP2040-CE mainline builds, the firmware 
-is available in their [Github Release page](https://github.com/OpenStickCommunity/GP2040-CE/releases) after v0.7.9-RC2
+is available in their [Project Page](https://gp2040-ce.info/downloads) after v0.7.10.
 
 Once you have downloaded the file, connect the board to your PC, 
 when you see a USB thumbdrive mounted called `RPI-RP2`,
@@ -22,14 +22,6 @@ when you connect if you already have firmware written to it)
 You may also obtain firmware with display layout enhancement by [adilahmeddev's branch](https://github.com/adilahmeddev/GP2040-CE-ERGOSHIFT-DISPLAY)
 in [My fork repository releases](https://github.com/mizma/GP2040-CE/releases).
 
-You may also choose some of the older builds at official release points as well.
-
-| Firmware  | Note  |
-| :---      | :---  |
-| [0.7.7](./GP2040-CE_0.7.7_ergoSHIFTRev2.uf2) | upstream 0.7.7 tag with ergoSHIFTRev2 BoardConfig |
-| [0.7.8](./GP2040-CE_0.7.8_ergoSHIFTRev2.uf2) | upstream 0.7.8 tag with ergoSHIFTRev2 BoardConfig |
-| [0.7.8 with display layout](./GP2040-CE_0.7.8-display_ergoSHIFTRev2.uf2) | 0.7.8 with ergoSHIFTRev2 BoardCOnfig and Display layout patch |
-
 If you don't see the `RPI-RP2`, Hold down the `BOOT` button (the side tactile 
 switch on the left) and press the `RST` button (the side tactile swith with
 `SW_RST1` label).
@@ -38,10 +30,8 @@ switch on the left) and press the `RST` button (the side tactile swith with
 
 You can use the original [GP2040-CE repository](https://github.com/OpenStickCommunity/GP2040-CE) source to build firmware for ergoSHIFTRev2.
 
-when building, set up the GP2040_BOARDCONFIG environment variable to `ergoSHIFTRev2`.
+When building, set up the GP2040_BOARDCONFIG environment variable to `ergoSHIFTRev2`.
 For how to build the firmware, follow the instructions in the original [GP2040-CE firmware](https://gp2040-ce.info/) website.
-
-Building instructions should be found under `Contribute -> Firmware Development`
 
 #### Pin assignments of ergoSHIFT Rev.2
 

@@ -4,32 +4,29 @@ GP2040-CE Firmware
 ergoSHIFT rev.2
 ------------------------------------------------------------------------
 
-rev.2 uses [GP2040-CE firmware](https://gp2040-ce.info/).
-
-See below for some of the options on obtaining the firmware for ergoSHIFT.
+rev.2 uses [GP2040-CE firmware](https://gp2040-ce.info/) with custom config.
 
 ### Prebuilt firmware file
 
-If you would like to obtain the original GP2040-CE mainline builds, the firmware 
-is available in their [Project Page](https://gp2040-ce.info/downloads) after v0.7.10.
-
-Once you have downloaded the file, connect the board to your PC, 
-when you see a USB thumbdrive mounted called `RPI-RP2`,
-just drag and drop the firmware file. (You will need to hold down the `BOOT` button 
-when you connect if you already have firmware written to it)
-
-You may also obtain firmware with display layout enhancement by [adilahmeddev's branch](https://github.com/adilahmeddev/GP2040-CE-ERGOSHIFT-DISPLAY)
+You may obtain firmware with display layout enhancement by [adilahmeddev's branch](https://github.com/adilahmeddev/GP2040-CE-ERGOSHIFT-DISPLAY)
 in [My fork repository releases](https://github.com/mizma/GP2040-CE/releases).
 
-If you don't see the `RPI-RP2`, Hold down the `BOOT` button (the side tactile 
+Once you have downloaded the file, connect the board to your PC,
+when you see a USB thumbdrive mounted called `RPI-RP2`,
+just drag and drop the firmware file. (You will need to hold down the `BOOT` button
+when you connect if you already have firmware written to it)
+
+If you don't see the `RPI-RP2`, Hold down the `BOOT` button (the side tactile
 switch on the left) and press the `RST` button (the side tactile swith with
 `SW_RST1` label).
 
 ### Building your own firmware
 
-You can use the original [GP2040-CE repository](https://github.com/OpenStickCommunity/GP2040-CE) source to build firmware for ergoSHIFTRev2.
+You can use my fork of [GP2040-CE repository](https://github.com/mizma/GP2040-CE) source to build firmware for ergoSHIFTRev2
+or ergoSHIFTRGB.
 
-When building, set up the GP2040_BOARDCONFIG environment variable to `ergoSHIFTRev2`.
+When building, set up the GP2040_BOARDCONFIG environment variable to `ergoSHIFTRev2` for non RGB
+version, or `ergoSHIFTRGB` for RGB enabled board.
 For how to build the firmware, follow the instructions in the original [GP2040-CE firmware](https://gp2040-ce.info/) website.
 
 #### Pin assignments of ergoSHIFT Rev.2

@@ -21,9 +21,9 @@ Also, you can create custom artwork using the stencil provided in each hardware 
 This controller is designed with the following concept:
 
 * Create a reasonably compact and thin leverless arcade controller
-* Layout 11 main buttons + 4 directional buttons to work with the latest 
+* Layout 11 main buttons + 4 directional buttons to work with the latest
   Capcom Pro-Tour rule-set
-* Shift the home position for the main button one column to the right to better utilize the 
+* Shift the home position for the main button one column to the right to better utilize the
   more dextrous thumb and index finger instead of the little finger.
 * Add the three additionally allowed buttons
 * Make the button size compatible with Snackbox MICRO from [Junkfood Arcades](https://junkfoodarcades.com/)
@@ -31,7 +31,7 @@ This controller is designed with the following concept:
 * Make the design reversible for southpaw use.
     * To assemble for left hand use, implement all buttons on the other side.
     * Controller Circuit (Pro Micro or RP2040) must be implemented on the same side
-    * to compensate for the Controller Cicuitry being implemented in reverse, Acrylic layers will need to be 
+    * to compensate for the Controller Cicuitry being implemented in reverse, Acrylic layers will need to be
       stacked in a different order and thickness.  Refer to each revision README for details
 
 Resulting button mappings will look like this:
@@ -43,24 +43,23 @@ There are currently two revisions of the ergoSHIFT.  It uses Kailh low profile (
 mechanical keyboard switches.  The table below lists their main features.
 See the README for each version for details on how to make them.
 
-version                                 | [rev1](./hardware-rev1/)            | [rev2](./hardware-rev2/)              | [rgb](./hardware-rgb/)                | 
---------------------------------------- | ----------------------------------- | ------------------------------------- | ------------------------------------- | 
-Status                                  | Verified                            | Verified                              | Verified                              | 
-case dimensions                         | 233.17x147.67x14.6mm (excl. feet)   | 233.17x147.67x14.6mm (excl. feet)     | 233.17x147.67x14.6mm (excl. feet)     | 
-compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   | PC, PS3, PS4*, PS5*, Xinput, Switch   | 
-add-on board                            | Sparkfun Qwiic Pro Micro            | SSD1306, SH1106 or SH1107 128x64 oled | SSD1306, SH1106 or SH1107 128x64 oled | 
-onboard chip                            | -                                   | RP2040                                | RP2040                                | 
-port                                    | USB-C                               | USB-C                                 | USB-C                                 | 
-SMT assembly required                   | no                                  | yes                                   | yes                                   | 
-OLED Support                            | no                                  | yes                                   | yes                                   | 
-RGB Support                             | no                                  | no                                    | yes                                   | 
-South-paw support                       | yes                                 | yes                                   | no                                    | 
-firmware                                | [ATmega32U4](firmwares_atmega32u4)  | [GP2040-CE](https://gp2040-ce.info/)**| [GP2040-CE](https://gp2040-ce.info/)**| 
+version                                 | [rev1](./hardware-rev1/)            | [rev2](./hardware-rev2/)              | [rgb](./hardware-rgb/)                |
+--------------------------------------- | ----------------------------------- | ------------------------------------- | ------------------------------------- |
+Status                                  | Verified                            | Verified                              | Verified                              |
+case dimensions                         | 233.17x147.67x14.6mm (excl. feet)   | 233.17x147.67x14.6mm (excl. feet)     | 233.17x147.67x14.6mm (excl. feet)     |
+compatibility (using provided firmware) | PC, PS3, Xinput, Switch             | PC, PS3, PS4*, PS5*, Xinput, Switch   | PC, PS3, PS4*, PS5*, Xinput, Switch   |
+add-on board                            | Sparkfun Qwiic Pro Micro            | SSD1306, SH1106 or SH1107 128x64 oled | SSD1306, SH1106 or SH1107 128x64 oled |
+onboard chip                            | -                                   | RP2040                                | RP2040                                |
+port                                    | USB-C                               | USB-C                                 | USB-C                                 |
+SMT assembly required                   | no                                  | yes                                   | yes                                   |
+OLED Support                            | no                                  | yes                                   | yes                                   |
+RGB Support                             | no                                  | no                                    | yes                                   |
+South-paw support                       | yes                                 | yes                                   | no                                    |
+firmware                                | [ATmega32U4](firmwares_atmega32u4)  | [GP2040-CE](https://gp2040-ce.info/)**| [GP2040-CE](https://gp2040-ce.info/)**|
 
 *) for details, see the documentation in the [GP2040-CE Console Compatibility FAQ](https://gp2040-ce.info/faq/faq-console-compatibility/)
 
-**) Firmware is available from the official [GP2040-CE Website](https://gp2040-ce.info/downloads)
-See [GP2040 firmware page](./firmware_GP2040-CE/) for firmware with ergoSHIFT specific patches (i.e. OLED display layout patch)
+**) See [GP2040 firmware page](./firmware_GP2040-CE/) for firmware with ergoSHIFT specific config.
 
 LICENSE
 ------------------------------------------------------------------------
@@ -76,6 +75,6 @@ You should have received a copy of the license along with this
 work. If not, see <https://creativecommons.org/licenses/by-sa/4.0/>.
 
 Some portions of the work uses derivative works of other libraries and or implementations.
-Firmware and hardware designs are separately licensed depending on the licensing terms of 
+Firmware and hardware designs are separately licensed depending on the licensing terms of
 the works it uses.  Refer to the LICENSE files or README for the relevant terms for each
 component.
